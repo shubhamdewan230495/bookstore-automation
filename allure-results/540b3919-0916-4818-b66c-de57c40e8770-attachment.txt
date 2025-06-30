@@ -1,0 +1,5 @@
+Triggering API: POST /signup {
+  headers: { 'Content-Type': 'application/json' },
+  params: undefined,
+  data: { email: 'testuser1751262526480', password: 'Test@1234' }
+}

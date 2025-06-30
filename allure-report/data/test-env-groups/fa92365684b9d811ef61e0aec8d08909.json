@@ -1,0 +1,1 @@
+{"id":"fa92365684b9d811ef61e0aec8d08909","fullName":"bookstore.crud.test.ts:81:7","name":"DELETE /books/{book_id} - Delete Book","status":"failed","testResultsByEnv":{"default":"e5b4d12d765e8430020f0192a84a2dc4"}}

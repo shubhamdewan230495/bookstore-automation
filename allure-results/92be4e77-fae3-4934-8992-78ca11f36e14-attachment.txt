@@ -1,0 +1,37 @@
+Triggering API: POST /signup {
+  headers: { 'Content-Type': 'application/json' },
+  params: undefined,
+  data: { email: 'testuser1751262527396', password: 'Test@1234' }
+}
+Triggering API: POST /login {
+  headers: { 'Content-Type': 'application/json' },
+  params: undefined,
+  data: { email: 'testuser1751262527396', password: 'Test@1234' }
+}
+Triggering API: POST /books {
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlcjE3NTEyNjI1MjczOTYiLCJleHAiOjE3NTEyNjQzMjh9.QFD9D9jpsIWH0r39cXU9D1WMdYqsD80tvWzIzbuVoTY'
+  },
+  params: undefined,
+  data: {
+    name: 'Test Book Mon Jun 30 2025 11:18:48 GMT+0530 (India Standard Time)',
+    author: 'Test Author Mon Jun 30 2025 11:18:48 GMT+0530 (India Standard Time)',
+    published_year: 2025,
+    book_summary: 'Test book summary'
+  }
+}
+Created Book ID: 105
+Triggering API: PUT /books/105 {
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlcjE3NTEyNjI1MjczOTYiLCJleHAiOjE3NTEyNjQzMjh9.QFD9D9jpsIWH0r39cXU9D1WMdYqsD80tvWzIzbuVoTY'
+  },
+  params: undefined,
+  data: {
+    name: 'Updated Book',
+    author: 'Updated Author',
+    published_year: 2026,
+    book_summary: 'updated summary'
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "com.bookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:stage": "ENV=stage npx playwright test --reporter=line,allure-playwright",
+    "test:prod": "ENV=stage npx playwright test --reporter=line,allure-playwright"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.7",
+    "allure-playwright": "^3.3.0",
+    "dotenv": "^17.0.0"
+  }
+}
